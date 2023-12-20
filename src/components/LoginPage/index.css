@@ -1,0 +1,132 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #405de6,
+    #5b51d8,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+}
+.logo {
+  width: 40%;
+  margin-right: 100px;
+}
+.login-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 57.22%;
+  right: 11.11%;
+  top: 27.64%;
+  bottom: 27.64%;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  padding: 40px;
+}
+.website-logo {
+  left: 70.21%;
+  right: 24.1%;
+  top: 34.67%;
+  bottom: 62.4%;
+}
+.website-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #262626;
+  margin-bottom: 5px;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 6px;
+  color: #262626;
+  outline: none;
+  border: 1px solid #eeeeee;
+}
+.login-button {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  cursor: pointer;
+  background: #4094ef;
+  border-radius: 8px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  height: 40px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  .input {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+}
+.error {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ef4444;
+}
+.show-password-container {
+  display: flex;
+  align-items: center;
+}
+.show-password {
+  font-size: 15px;
+  margin-left: 5px;
+}

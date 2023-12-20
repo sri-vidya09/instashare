@@ -1,0 +1,12 @@
+.app-container {
+  min-height: 2600vh;
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.app-container2 {
+  background-color: #000000;
+  min-height: 2600vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
